@@ -9,11 +9,14 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 
 ## Chapter 1 – The Machine Learning landscape - modification:
 </br>
-Try to use "Polynomial Regression model":
+## Will try to implement "Polynomial Regression model":
+</br>
 </br>
 ref: https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
 </br>
 </br>
+
+## Fitting the Polynomial Regression model on two components X and y. 
 
 ```
 # Fitting Linear Regression to the dataset
@@ -21,6 +24,8 @@ from sklearn.linear_model import LinearRegression
 lin = LinearRegression()
 
 lin.fit(X, y)
+
+Fitting the Polynomial Regression model on two components X and y.
 
 # Fitting Polynomial Regression to the dataset
 from sklearn.preprocessing import PolynomialFeatures
@@ -34,6 +39,8 @@ lin2.fit(X_poly, y)
 ```
 
 </br>
+
+## Visualising the Linear Regression results using a scatter plot:
 
 ```
 # Visualising the Linear Regression results
@@ -53,6 +60,8 @@ plt.show()
 
 </br>
 
+## Visualize the Polynomial Regression results using a scatter plot:
+
 ```
 # Visualising the Polynomial Regression results
 plt.scatter(X, y, color='blue')
@@ -70,6 +79,8 @@ plt.show()
 ![Alt text of the image](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/02.png)
 
 </br>
+
+## Predict new results with both Linear and Polynomial Regression. Note that the input variable must be in a Numpy 2D array:
 
 ```
 # Predicting a new result with Linear Regression
