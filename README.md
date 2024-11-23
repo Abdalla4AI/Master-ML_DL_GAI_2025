@@ -3,8 +3,8 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 
 ## Notes:
 
-[Chapter1: Exercises & Note 1](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/wiki/Chapter1:-Exercises-&-Note-1)</br>
-[Chapter1: Exercises & Note 1](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/wiki/3.-Chaper1,-Exercises-&-Note-2)
+### [Chapter1: Exercises & Note 1](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/wiki/Chapter1:-Exercises-&-Note-1)</br>
+### [Chapter1: Exercises & Note 2](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/wiki/3.-Chaper1,-Exercises-&-Note-2)
 
 
 ## Chapter 1 – The Machine Learning landscape - modification:
@@ -13,7 +13,8 @@ Try to use "Polynomial Regression model":
 </br>
 ref: https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
 </br>
-
+</br>
+***
 ```
 # Fitting Linear Regression to the dataset
 from sklearn.linear_model import LinearRegression
@@ -48,7 +49,7 @@ plt.show()
 ```
 </br>
 
-![Alt text of the image](https://github.com/username/repository/blob/master/img/octocat.png)
+![Alt text of the image](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/01.png)
 
 </br>
 
@@ -66,7 +67,7 @@ plt.show()
 ```
 </br>
 
-image2
+![Alt text of the image](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/02.png)
 
 </br>
 
