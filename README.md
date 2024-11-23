@@ -1,4 +1,4 @@
-# Master-ML_DL_GAI_2025
+# Master ML DL GAI 2025
 Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generative AI!
 
 ## Notes:
@@ -48,7 +48,7 @@ plt.show()
 ```
 </br>
 
-image
+![Alt text of the image](https://github.com/username/repository/blob/master/img/octocat.png)
 
 </br>
 
