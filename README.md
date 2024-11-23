@@ -9,7 +9,8 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 
 ## Chapter 1 – The Machine Learning landscape - modification:
 </br>
-## Will try to implement "Polynomial Regression model":
+
+## Implementing "Polynomial Regression model" algorism:
 </br>
 </br>
 ref: https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
