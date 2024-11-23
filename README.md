@@ -14,7 +14,7 @@ Try to use "Polynomial Regression model":
 ref: https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
 </br>
 </br>
-***
+
 ```
 # Fitting Linear Regression to the dataset
 from sklearn.linear_model import LinearRegression
