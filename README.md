@@ -12,7 +12,7 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 
 </br>
 </br>
-ref: https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
+code snippet from: https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/
 </br>
 </br>
 
