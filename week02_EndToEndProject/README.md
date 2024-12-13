@@ -29,7 +29,7 @@ In the book 3 options are listed:
 3. median = housing["total_bedrooms"].median()  # option 3
     housing["total_bedrooms"].fillna(median, inplace=True)
 
-####Code Blocks (Indented style)
+#### Code Blocks (Indented style)
 
 I apply `median` to missing values in column total_bedrooms:
 
@@ -37,7 +37,7 @@ I apply `median` to missing values in column total_bedrooms:
     housing["total_bedrooms"].fillna(median, inplace=True)
     
 
-####While discovering data, I found ocean_proximity column has 5 rows for value `ISLAND`
+#### While discovering data, I found ocean_proximity column has 5 rows for value `ISLAND`
 
     housing["ocean_proximity"].value_counts()
 		
