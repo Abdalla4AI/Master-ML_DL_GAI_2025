@@ -1,6 +1,10 @@
 
 ### End-to-End Machine Learning Project Workflow
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/02_end_to_end_machine_learning_project.ipynb/]
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
+
 This notes outlines the process of executing an end-to-end machine learning (ML) project based on Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron, enriched with insights from modern ML practices.
 
 **1. Look at the Big Picture**
