@@ -54,7 +54,7 @@ I apply `median` to missing values in column total_bedrooms:
 
 #### Now apply housing.info() , from the results you will notice:
 	<class 'pandas.core.frame.DataFrame'>
-    Int64Index: 20635 entries, 0 to 20639
+        Int64Index: 20635 entries, 0 to 20639
 	# There is index missing.
 	# This issue will generate error in pandas and sklearn libraries. 
 
@@ -62,11 +62,11 @@ I apply `median` to missing values in column total_bedrooms:
     housing.dropna(inplace=True) 
     housing.reset_index(drop=True, inplace=True)
 
-#### Results: enhace regression model prediction error, as:
-		 Befor clear ['ocean_proximity'] == 'ISLAND': 
-		 		root mean square error: 84056.18763327331
-		 After clear ['ocean_proximity'] == 'ISLAND': 
-		 		root mean square error: 83786.95955423421
+#### Results: Enhaced regression model prediction error, as:
+        Befor clear ['ocean_proximity'] == 'ISLAND': 
+	 		root mean square error: 84056.18763327331
+	After clear ['ocean_proximity'] == 'ISLAND': 
+	 		root mean square error: 83786.95955423421
 
 	Befor modification: 
 			Linear Regression Prediction error: 69957.72079714121
@@ -78,14 +78,14 @@ I apply `median` to missing values in column total_bedrooms:
 
     
 
-#### Notice: Unfortunatly Random Forest Regressor prediction error goes high:
-		Befor: Test set prediction error: 47927.65438939967
-		After: Test set prediction error: 49420.82944683894
+#### Notice: Unfortunately Random Forest Regressor prediction error goes high:
+	Befor: Test set prediction error: 47927.65438939967
+	After: Test set prediction error: 49420.82944683894
 
 
 **Conclusion**
 A structured workflow, from problem framing to deployment, ensures ML projects deliver practical value. Géron’s guidelines, combined with modern insights, help create robust and impactful models.
-I had indecator to select  classification model to solve this problem.
+I had indecator to select classification model to solve this problem.
 
 
 TODO:
