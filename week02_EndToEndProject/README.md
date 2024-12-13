@@ -1,14 +1,10 @@
 
 ### End-to-End Machine Learning Project Workflow
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/02_end_to_end_machine_learning_project.ipynb/]
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
-
-## Demo Links
-| Google Colab demo | Huggingface Demo |
+## Chapter 2 Google Colab Notebook
+| Full Tutorial | Enhaced Google Colab  |
 |:-:|:-:|
-|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ICa2nh3mbflJCrJ4oKNUHWTZ9_vTJw8F?usp=sharing)|  [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/akhaliq/yolov7)|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/02_end_to_end_machine_learning_project.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/02_Regression_Models_for_California_Housing_Price_Prediction-Copy1.ipynb)|
 
 This notes outlines the process of executing an end-to-end machine learning (ML) project based on Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron, enriched with insights from modern ML practices.
 
