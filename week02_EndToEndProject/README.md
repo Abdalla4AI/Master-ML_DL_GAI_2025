@@ -26,8 +26,8 @@ In the book 3 options are listed:
 
 1. housing.dropna(subset=["total_bedrooms"])    # option 1
 2. housing.drop("total_bedrooms", axis=1)       # option 2
-3. median = housing["total_bedrooms"].median()  # option 3
-    housing["total_bedrooms"].fillna(median, inplace=True)
+3. median = housing["total_bedrooms"].median()  
+    housing["total_bedrooms"].fillna(median, inplace=True) # option 3
 
 #### Code Blocks (Indented style)
 
