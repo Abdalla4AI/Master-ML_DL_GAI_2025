@@ -5,7 +5,7 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 ![](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Hands-On%20ML.jpg)
 </br>
 
-# Chapter 1 Introduction:
+# [Chapter 1 Introduction] (https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/wiki/1.-Home)
 </br>
 
 Implementing "Polynomial Regression model" algorism to distinguiture results among algorisms mentioned in chaper one, here modified "Chapter 1 – The Machine Learning landscape notebook", [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/01_the_machine_learning_landscape.ipynb)
