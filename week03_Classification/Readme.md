@@ -14,20 +14,19 @@ Data Preprocessing: Loading and preparing the MNIST dataset for model training.
 Classification Models: Implementations using various algorithms, including:
   - Logistic Regression
   - Support Vector Machines (SVMs)
-  - Neural Networks (MLPs and CNNs)
+  - Neural Networks (CNNs)
 
 **Evaluation:** Performance metrics such as Cross-Validation, Confusion Matrix, Confusion Matrix, Precision/Recall Trade-off and ROC Curve.
 
 **Visualization:** Insights into model predictions and feature representations.
 
-**Classification:** We study Classification type like Multiclass, Multilabel, Multioutput Classification, Dummy (ie. random) classifier, KNN classifier
+**Classification:** as will study Classification type like Multiclass, Multilabel, Multioutput Classification, Dummy (ie. random) classifier, KNN classifier
 
 **Advanced Techniques:** Using Data Augmentation and Convolutional Neural Networks (CNNs) for improved accuracy.
 
-**Exercise solutions:**
-1. **An MNIST Classifier:** With Over **97%** Accuracy with help of k-nearest neighbors (KNN) algorithm.
-2. I wounder how An MNIST Classifier rich over **99%** accuracy using **CNN**.
-3. **Tackle the Titanic dataset:** The goal is to predict whether or not a passenger survived based on attributes such as their age, sex, passenger class, where they embarked and so on. We rich over **98%** accuracy using **Random Forests**, **~87%** using KNN Slight improvement and **~80%** using Logistic Regression.
+## **Exercise solutions:**
+1. **An MNIST Classifier:** I wonder how an MNIST classifier achieves over **99%** accuracy using a **CNN**, while only achieving **97%** accuracy with the help of the **k-nearest neighbors (KNN)** algorithm.
+2. **Tackling the Titanic Dataset:** The goal is to predict whether or not a passenger survived based on attributes such as age, sex, passenger class, embarkation point, and so on. We achieved over **98%** accuracy using **Random Forests** algorism, and approximately **87%** using **KNN** with slight improvements over the **~80%** achieved using **Logistic Regression**.
 
 
 TODO:
