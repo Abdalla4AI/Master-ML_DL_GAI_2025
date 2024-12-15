@@ -25,7 +25,7 @@ Classification Models: Implementations using various algorithms, including:
 **Advanced Techniques:** Using Data Augmentation and Convolutional Neural Networks (CNNs) for improved accuracy.
 
 ## **Exercise solutions:**
-1. **An MNIST Classifier:** I wonder how an MNIST classifier achieves abdou **~99%** accuracy using a **CNN**, while only achieving **97%** accuracy with the help of the **k-nearest neighbors (KNN)** algorithm.
+1. **An MNIST Classifier:** I wonder how an MNIST classifier achieves about **~99%** accuracy using a **CNN**, while only achieving **97%** accuracy with the help of the **k-nearest neighbors (KNN)** algorithm.
 2. **Tackling the Titanic Dataset:** The goal is to predict whether or not a passenger survived based on attributes such as age, sex, passenger class, embarkation point, and so on. We achieved about **~98%** accuracy using **Random Forests** algorism, and approximately **87%** using **KNN** with slight improvements over the **~80%** achieved using **Logistic Regression**.
 
 
