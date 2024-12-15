@@ -25,7 +25,9 @@ This notes outlines the process of executing an end-to-end machine learning (ML)
 
 # [Chapter 3 Classification](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/week03_Classification/Readme.md)
 
-This repository contains implementations and experiments using the MNIST dataset, a collection of 70,000 grayscale images of handwritten digits (0-9). Each image is 28x28 pixels, and the corresponding label represents the digit. MNIST is a foundational dataset in machine learning, often referred to as the "Hello World" of the field. It is widely used for testing and developing classification algorithms.
+This repository contains classification algorithms and their implementations, along with experiments using the MNIST dataset. I am exploring how to achieve approximately **99%** accuracy using **Convolutional Neural Networks (CNNs)**.
+
+The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0–9). Each image is 28x28 pixels, and its corresponding label represents the digit. Often referred to as the "Hello World" of machine learning, MNIST is a foundational dataset widely used for testing and developing classification algorithms.
 
 
 | Chapter 3 Classification | MNIST ~99% Accuracy |
