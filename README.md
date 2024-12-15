@@ -13,7 +13,7 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 </br>
 
 
-# Chapter 2 End-to-End Machine Learning Project Workflow
+# [Chapter 2 End-to-End Machine Learning Project Workflow](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/week02_EndToEndProject/README.md)
 
 
 | Full Tutorial | Enhaced Google Colab  |
