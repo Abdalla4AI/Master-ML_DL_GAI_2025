@@ -2,11 +2,8 @@
 Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generative AI!
 </br>
 
-
-
-<p align="center">
 ![](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Hands-On%20ML.jpg)
-</p>
+
 
 </br>
 
