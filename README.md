@@ -2,10 +2,10 @@
 Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generative AI!
 </br>
 
-![](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Hands-On%20ML.jpg)
+
 
 <p align="center">
-  <img src="[https://picsum.photos/460/300](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Hands-On%20ML.jpg)">
+![](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Hands-On%20ML.jpg)
 </p>
 
 </br>
