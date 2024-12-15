@@ -23,7 +23,8 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 This notes outlines the process of executing an end-to-end machine learning (ML) project based on Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron, enriched with insights from modern ML practices.
 
 
-# Chapter 3 Classification
+# [Chapter 3 Classification](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/week03_Classification/Readme.md)
+
 This repository contains implementations and experiments using the MNIST dataset, a collection of 70,000 grayscale images of handwritten digits (0-9). Each image is 28x28 pixels, and the corresponding label represents the digit. MNIST is a foundational dataset in machine learning, often referred to as the "Hello World" of the field. It is widely used for testing and developing classification algorithms.
 
 
