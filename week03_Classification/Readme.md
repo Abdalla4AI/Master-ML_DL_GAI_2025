@@ -12,7 +12,9 @@ Classification Models: Implementations using various algorithms, including:
   - Neural Networks (MLPs and CNNs)
 
 **Evaluation:** Performance metrics such as accuracy, precision, and recall.
+
 **Advanced Techniques:** Using Convolutional Neural Networks (CNNs) for improved accuracy.
+
 **Visualization:** Insights into model predictions and feature representations.
 
 
