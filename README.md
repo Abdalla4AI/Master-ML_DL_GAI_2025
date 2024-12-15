@@ -1,13 +1,13 @@
 # Master ML DL GAI 2025
 Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generative AI!
-
+</br>
 ![](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Hands-On%20ML.jpg)
-
+</br>
 
 # Chapter 1 Introduction:
+</br>
 
-
-## Implementing "Polynomial Regression model" algorism to distinguiture results among algorisms mentioned in chaper one, here modified "Chapter 1 – The Machine Learning landscape notebook", [try it in google colab](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/01_the_machine_learning_landscape.ipynb)
+Implementing "Polynomial Regression model" algorism to distinguiture results among algorisms mentioned in chaper one, here modified "Chapter 1 – The Machine Learning landscape notebook", [try it in google colab](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/01_the_machine_learning_landscape.ipynb)
 </br>
 
    - [Chapter1: Exercises & Note 1](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/wiki/2.-Chapter1:-Exercises-&-Note-1)</br>
@@ -15,7 +15,7 @@ Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generati
 
 
 # [Chapter 2 End-to-End Machine Learning Project Workflow](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/week02_EndToEndProject/README.md)
-
+</br>
 
 | Full Tutorial | Enhaced Google Colab  |
 |:-:|:-:|
