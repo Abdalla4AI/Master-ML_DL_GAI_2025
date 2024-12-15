@@ -2,6 +2,7 @@
 Welcome to Our Group for Mastering Machine Learning, Deep Learning, and Generative AI!
 </br>
 
+
 ![](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/images/Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-OReilly-Media-2019.jpg)
 
 
