@@ -40,3 +40,13 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0â€
 | Chapter 3 Classification | MNIST ~99% Accuracy |
 |:-:|:-:|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/03_classification.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/skorch-dev/skorch/blob/master/notebooks/MNIST.ipynb#scrollTo=h-tIl3el_v7x)|
+
+
+# Chapter 4: Training Models:
+In this chapter, We will go deeper into how things work, and understanding whatâ€™s under the hood will help us debug issues and perform error analysis more efficiently.
+
+
+| Training Models | Exercise solutions |
+|:-:|:-:|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/03_classification.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/skorch-dev/skorch/blob/master/notebooks/MNIST.ipynb#scrollTo=h-tIl3el_v7x)|
+
