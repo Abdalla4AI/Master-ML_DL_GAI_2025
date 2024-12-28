@@ -48,5 +48,5 @@ In this chapter, We will go deeper into how things work, and understanding whatâ
 
 | Training Models | Exercise solutions |
 |:-:|:-:|
-|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/04_training_linear_models.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/04%20Chapter04%20-%20Exercise%20solutions.ipynb)|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/04_training_linear_models.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/04_Chapter04_Exercise_solutions.ipynb)|
 
