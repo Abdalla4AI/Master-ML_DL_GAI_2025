@@ -53,6 +53,13 @@ In this chapter, We will go deeper into how things work, and understanding whatâ
 # Chapter 5: Support Vector Machines:
 A Support Vector Machine (SVM) is a powerful and versatile machine learning model used for classification, regression, and outlier detection, handling both linear and nonlinear data. It is especially effective for classifying complex, small to medium-sized datasets. SVMs work by finding the optimal hyperplane that separates different classes in the feature space, maximizing the margin between the classes. This chapter will explain the fundamental concepts behind SVMs, their practical applications, and how they function, making them an essential tool in machine learning.
 
+**In underline **Exercise solutions** notebooks will found some usefull technic like:**
+1. Simplest way to use the pickle module to save and load a scikit-learn model locally.
+2. Grid search is a common method to optimize hyperparameters in machine learning models. It systematically searches through a specified subset of hyperparameters to find the best combination based on cross-validation performance.
+3. To optimize the hyperparameters of an SVM (Support Vector Machine) for the MNIST dataset using Grid Search, we can follow these steps. We'll use SVC (Support Vector Classification) from Scikit-Learn, and apply GridSearchCV to tune the C, kernel, and gamma parameters, which are crucial for SVM performance.
+
+**In a Jupyter Notebook Markdown Tips, you can write Markdown in a cell to include rich text, such as headings, lists, links, images, and code formatting**
+
 | Exercise solutions | Jupyter Notebook Markdown Tips |
 |:-:|:-:|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/05_support_vector_machines.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/Jupyter_notebook_how_to_write_markdown.ipynb)|
