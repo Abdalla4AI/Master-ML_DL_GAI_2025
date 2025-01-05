@@ -50,3 +50,9 @@ In this chapter, We will go deeper into how things work, and understanding whatâ
 |:-:|:-:|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/04_training_linear_models.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/04_Chapter04_Exercise_solutions.ipynb)|
 
+# Chapter 5: Support Vector Machines:
+A Support Vector Machine (SVM) is a powerful and versatile machine learning model used for classification, regression, and outlier detection, handling both linear and nonlinear data. It is especially effective for classifying complex, small to medium-sized datasets. SVMs work by finding the optimal hyperplane that separates different classes in the feature space, maximizing the margin between the classes. This chapter will explain the fundamental concepts behind SVMs, their practical applications, and how they function, making them an essential tool in machine learning.
+
+| Exercise solutions | Jupyter Notebook Markdown Tips |
+|:-:|:-:|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/05_support_vector_machines.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/Jupyter_notebook_how_to_write_markdown.ipynb)|
