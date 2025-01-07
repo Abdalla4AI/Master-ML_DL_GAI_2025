@@ -65,7 +65,7 @@ A Support Vector Machine (SVM) is a powerful and versatile machine learning mode
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/05_support_vector_machines.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/Jupyter_notebook_how_to_write_markdown.ipynb)|
 
 
-# Chapter 6. Decision Trees
+# Chapter 6: Decision Trees:
 
 In this Chapter, we will start by discussing how to train, validate, and make predictions with decision trees. Then we will go through the CART training algorithm used by `Scikit-Learn`, we will discuss how to regularize trees and use them in regression tasks. Finally, we will discuss some of the limitations of decision trees.
 
@@ -123,6 +123,7 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 ## Decision boundary:
 
 - Depth: how many horizontal level.
+
 
 
 | Chapter 6 Decision Tree | Note & Exercise solutions |
