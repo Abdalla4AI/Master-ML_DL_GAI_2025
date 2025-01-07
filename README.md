@@ -149,7 +149,7 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 - **Tree depth** determines the number of decision levels (horizontal splits).
 - The decision boundary is defined by feature splits, forming **rectangular regions** in feature space.
 
-
+---
 
 
 | Chapter 6 Decision Tree | Note & Exercise solutions |
