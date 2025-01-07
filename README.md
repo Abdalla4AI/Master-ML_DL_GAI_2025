@@ -63,3 +63,69 @@ A Support Vector Machine (SVM) is a powerful and versatile machine learning mode
 | Exercise solutions | Jupyter Notebook Markdown Tips |
 |:-:|:-:|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/05_support_vector_machines.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/Jupyter_notebook_how_to_write_markdown.ipynb)|
+
+
+# Chapter 6. Decision Trees
+
+In this Chapter, we will start by discussing how to train, validate, and make predictions with decision trees. Then we will go through the CART training algorithm used by `Scikit-Learn`, we will discuss how to regularize trees and use them in regression tasks. Finally, we will discuss some of the limitations of decision trees.
+
+# Decision Tree Notes:
+
+- Multioutput classification.
+- It is base algorism for Random Forest
+- CART Classification And Regression Trees, sklearn use model or algorism CART to calc tree.
+  it generate binary trees. (true and false leaves).
+  CART do select feature (k) and threshold (t) to classification first node. (name it imurity) and select minimum impurity (gini).
+- Cost function: (t>k)
+	min J(k, t) = weighted average = ((min left / min) * gini-left) + ((min right / min) * gini-right)
+	for each node. will stop when:
+	1. rich max_depth variable.
+	2. no value will divided.
+- Greedy algorism: find minimum path to next node.
+- Presort hyperparameter: if we want fast training? we set presort to true. sorting data if data small 3 to 4 thousands.
+- Entropy: e = for k=1 to n: -1 * P * (log2 P). calc for all nodes in trees. P=> propability
+	e = -1 * (49/54) * log2((49/54)) - (5/54) * log2((5/54)) .....
+	for data (0, 49, 5).
+- We can use gini or entropy, result are same. entropy balance tree more than gini.
+- gini is default in algorism, and it faster than entropy.
+- to change to entropy use hyperparameter intropion='entropy', in sklearn.
+- DT: can fit data to rich accuracy 100%, it become overfitting. so no data generization.
+- DT: it is non-parameters. we not know what they or how many
+- To reduce overfitting we do regularization.
+- regularization: use hyperparameter like max_depth(default = 'none').
+	min_sample_split: in node has 30 sample if it less than min_sample_split? stop DT, no generate leaves.
+	min_sample_leaf: leave count not less than this hyperparameter.
+	min_weight_fraction_leaf: same as min_sample_leaf but value in fraction number.
+	max_leaf_nodes: max leaf number in trees. (in last depth leaf)
+	max_features: select random number of features.
+- if reduce any 'max' hyperparameter? then we do regularization.
+- if increase any 'min'  hyperparameter? then we do regularization.
+- Another way is normal training DT without mis with hyperparameter to make regularization. after training we do pruning.
+- Pruning: for each node with leaf, remove node only and check if model result not effect. finally we get best model.
+- DT can use in regression (regression use in serial results). ex (x1,x2 features and we need predict y)
+- Scaling not problem. the problem in location of data. for location we use PCA
+- PCA: do features reduction, reduce dimension.
+- DT: sensitive to any change in data. will change in gini values. 
+- Random_state: if we have selective random? like DT will pickup specific (for example random features), or specific path on nodes/leaves.
+	for example random_state = 42.
+	We use this hyperparameter in other model/algorism. not executed to DT.
+- Sensitive variation in data Random forst better than DT, DT has fail more than randon forst. 
+
+
+- Note: ID3 another model, generate more than 2 leaves for one tree.
+- Interpretation: we know how model internally work.
+- Decision trees called "Whitebox algorism", 
+- Note: Blackbox model like CNN, RForst,..
+- DT: output is probability, like (0, 49, 3) for all 3 classis. results: relosa = 0/54, versi = 49/54, verginika = 5/54
+      
+
+
+## Decision boundary:
+
+- Depth: how many horizontal level.
+
+
+| Chapter 6 Decision Tree | Note & Exercise solutions |
+|:-:|:-:|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06_decision_trees_ori.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06.Decision_Trees.ipynb)|
+
