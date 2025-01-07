@@ -110,16 +110,15 @@ $$
 
 - Example: If we have a dataset with three classes, and their probabilities are:
 
-     $$
-     P_1 = \frac{49}{54}, \quad P_2 = \frac{5}{54}
-     $$
+$$
+P_1 = \frac{49}{54}, \quad P_2 = \frac{5}{54}
+$$
 
   Then entropy is calculated as:
 
-
-  $$
-  E = - \left( \frac{49}{54} \log_2 \frac{49}{54} + \frac{5}{54} \log_2 \frac{5}{54} \right)
-  $$
+$$
+E = - \left( \frac{49}{54} \log_2 \frac{49}{54} + \frac{5}{54} \log_2 \frac{5}{54} \right)
+$$
 
 - **Entropy vs. Gini Impurity:**
   - Entropy helps create more balanced trees.
