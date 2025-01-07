@@ -99,9 +99,9 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 - **Gini impurity (default):** Faster computation, commonly used.
 - **Entropy Calculation:**
   
-  $$ 
-  E = - \sum_{i=1}^{n} P_i \log_2 (P_i) 
-  $$
+$$ 
+E = - \sum_{i=1}^{n} P_i \log_2 (P_i) 
+$$
 
   Where:
   - \( E \) = Entropy
@@ -110,11 +110,12 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 
 - Example: If we have a dataset with three classes, and their probabilities are:
 
-  $$
-  P_1 = \frac{49}{54}, \quad P_2 = \frac{5}{54}
-  $$
+     $$
+     P_1 = \frac{49}{54}, \quad P_2 = \frac{5}{54}
+     $$
 
   Then entropy is calculated as:
+
 
   $$
   E = - \left( \frac{49}{54} \log_2 \frac{49}{54} + \frac{5}{54} \log_2 \frac{5}{54} \right)
