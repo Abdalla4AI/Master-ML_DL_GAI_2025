@@ -128,5 +128,5 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 
 | Chapter 6 Decision Tree | Note & Exercise solutions |
 |:-:|:-:|
-|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06_decision_trees_ori.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06.Decision_Trees.ipynb)|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06_decision_trees_ori.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06.Decision_Trees.ipynb)|
 
