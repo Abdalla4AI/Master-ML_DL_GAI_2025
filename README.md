@@ -98,12 +98,12 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 - **Gini impurity (default):** Faster computation, commonly used.
 - **Entropy Calculation:**
   
-     $$ 
-     E = -\sum_{i=1}^{n} P_i \log_2 P_i
-     $$
+  $$ 
+  E = -\sum_{i=1}^{n} P_i \log_2 P_i
+  $$
 
-  - Entropy balances the tree better than Gini impurity.
-  - To use entropy in `sklearn`, set `criterion="entropy"`.
+- Entropy balances the tree better than Gini impurity.
+- To use entropy in `sklearn`, set `criterion="entropy"`.
 - Both methods produce similar results, but entropy can create a more balanced tree.
 
 ---
