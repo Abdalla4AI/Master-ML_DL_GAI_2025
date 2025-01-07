@@ -156,3 +156,8 @@ In this Chapter, we will start by discussing how to train, validate, and make pr
 |:-:|:-:|
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06_decision_trees_ori.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06.Decision_Trees.ipynb)|
 
+---
+
+\[
+  J(k, t) = \left( \frac{\text{samples left}}{\text{total samples}} \times \text{Gini left} \right) + \left( \frac{\text{samples right}}{\text{total samples}} \times \text{Gini right} \right)
+\]
