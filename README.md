@@ -69,60 +69,86 @@ A Support Vector Machine (SVM) is a powerful and versatile machine learning mode
 
 In this Chapter, we will start by discussing how to train, validate, and make predictions with decision trees. Then we will go through the CART training algorithm used by `Scikit-Learn`, we will discuss how to regularize trees and use them in regression tasks. Finally, we will discuss some of the limitations of decision trees.
 
-# Decision Tree Notes:
+# **Decision Tree (DT) Overview**
 
-- Multioutput classification.
-- It is base algorism for Random Forest
-- CART Classification And Regression Trees, sklearn use model or algorism CART to calc tree.
-  it generate binary trees. (true and false leaves).
-  CART do select feature (k) and threshold (t) to classification first node. (name it imurity) and select minimum impurity (gini).
-- Cost function: (t>k)
-	min J(k, t) = weighted average = ((min left / min) * gini-left) + ((min right / min) * gini-right)
-	for each node. will stop when:
-	1. rich max_depth variable.
-	2. no value will divided.
-- Greedy algorism: find minimum path to next node.
-- Presort hyperparameter: if we want fast training? we set presort to true. sorting data if data small 3 to 4 thousands.
-- Entropy: e = for k=1 to n: -1 * P * (log2 P). calc for all nodes in trees. P=> propability
-	e = -1 * (49/54) * log2((49/54)) - (5/54) * log2((5/54)) .....
-	for data (0, 49, 5).
-- We can use gini or entropy, result are same. entropy balance tree more than gini.
-- gini is default in algorism, and it faster than entropy.
-- to change to entropy use hyperparameter intropion='entropy', in sklearn.
-- DT: can fit data to rich accuracy 100%, it become overfitting. so no data generization.
-- DT: it is non-parameters. we not know what they or how many
-- To reduce overfitting we do regularization.
-- regularization: use hyperparameter like max_depth(default = 'none').
-	min_sample_split: in node has 30 sample if it less than min_sample_split? stop DT, no generate leaves.
-	min_sample_leaf: leave count not less than this hyperparameter.
-	min_weight_fraction_leaf: same as min_sample_leaf but value in fraction number.
-	max_leaf_nodes: max leaf number in trees. (in last depth leaf)
-	max_features: select random number of features.
-- if reduce any 'max' hyperparameter? then we do regularization.
-- if increase any 'min'  hyperparameter? then we do regularization.
-- Another way is normal training DT without mis with hyperparameter to make regularization. after training we do pruning.
-- Pruning: for each node with leaf, remove node only and check if model result not effect. finally we get best model.
-- DT can use in regression (regression use in serial results). ex (x1,x2 features and we need predict y)
-- Scaling not problem. the problem in location of data. for location we use PCA
-- PCA: do features reduction, reduce dimension.
-- DT: sensitive to any change in data. will change in gini values. 
-- Random_state: if we have selective random? like DT will pickup specific (for example random features), or specific path on nodes/leaves.
-	for example random_state = 42.
-	We use this hyperparameter in other model/algorism. not executed to DT.
-- Sensitive variation in data Random forst better than DT, DT has fail more than randon forst. 
+## **1. General Concepts**
+- Decision Trees can handle **multi-output classification** problems.
+- They serve as the **base algorithm for Random Forest** models.
+- The **CART (Classification And Regression Trees)** algorithm is used in `sklearn` to construct decision trees, generating **binary trees** with "True" and "False" leaves.
+- The algorithm selects the **best feature (k) and threshold (t)** at each node based on **impurity** (e.g., Gini impurity).
+- The goal is to minimize impurity using the following cost function:
 
+  \[
+  J(k, t) = \frac{\text{samples left}}{\text{total samples}} \times \text{Gini left} + \frac{\text{samples right}}{\text{total samples}} \times \text{Gini right}
+  \]
 
-- Note: ID3 another model, generate more than 2 leaves for one tree.
-- Interpretation: we know how model internally work.
-- Decision trees called "Whitebox algorism", 
-- Note: Blackbox model like CNN, RForst,..
-- DT: output is probability, like (0, 49, 3) for all 3 classis. results: relosa = 0/54, versi = 49/54, verginika = 5/54
-      
+- The tree stops growing when:
+  1. It reaches the `max_depth` limit.
+  2. No further splits can be made.
 
+---
 
-## Decision boundary:
+## **2. Algorithm Characteristics**
+- **Greedy Algorithm:** Decision Trees use a greedy approach to find the best split at each step.
+- **Pre-sorting (Hyperparameter):** If set to `True`, sorting is performed before training for faster results (useful for small datasets of around 3,000-4,000 samples).
 
-- Depth: how many horizontal level.
+---
+
+## **3. Gini Impurity vs. Entropy**
+- **Gini impurity (default):** Faster computation, commonly used.
+- **Entropy Calculation:**
+  
+  \[
+  E = -\sum P_i \log_2 P_i
+  \]
+
+  - Entropy balances the tree better than Gini impurity.
+  - To use entropy in `sklearn`, set `criterion="entropy"`.
+- Both methods produce similar results, but entropy can create a more balanced tree.
+
+---
+
+## **4. Overfitting & Regularization**
+- Decision Trees can achieve **100% accuracy** on training data, leading to **overfitting** and poor generalization.
+- DTs are **non-parametric**, meaning we don’t predefine the number of parameters.
+- **Regularization Methods:**
+  - Use hyperparameters like:
+    - `max_depth`: Limits tree depth (default = None).
+    - `min_samples_split`: Minimum samples required to split a node.
+    - `min_samples_leaf`: Minimum samples required in a leaf node.
+    - `min_weight_fraction_leaf`: Similar to `min_samples_leaf` but in fractional terms.
+    - `max_leaf_nodes`: Limits the number of leaf nodes.
+    - `max_features`: Restricts the number of features considered at each split.
+  - **Regularization Rules:**
+    - Decreasing **max** hyperparameters = **more regularization**.
+    - Increasing **min** hyperparameters = **more regularization**.
+- Another approach is **pruning**, where nodes are removed **after training** if they don’t significantly impact accuracy.
+
+---
+
+## **5. Decision Trees in Regression**
+- DTs can also be used for **regression** tasks, predicting continuous values.
+- They are **not sensitive to feature scaling**, but they are sensitive to **feature locations** (PCA can help with dimensionality reduction).
+
+---
+
+## **6. Randomness and Variability**
+- Decision Trees are highly sensitive to changes in data; small variations can alter splits.
+- Using **random_state** ensures reproducibility (e.g., `random_state=42`).
+- Random Forest models are more **stable and accurate** than individual Decision Trees.
+
+---
+
+## **7. Other Decision Tree Variants**
+- **ID3 (Iterative Dichotomiser 3):** Unlike CART, it can generate more than two child nodes per split.
+- **Interpretability:** Decision Trees are highly interpretable models, known as **"White-box algorithms"**, whereas models like CNNs and Random Forests are considered **"Black-box"** models.
+
+---
+
+## **8. Decision Boundary**
+- **Tree depth** determines the number of decision levels (horizontal splits).
+- The decision boundary is defined by feature splits, forming **rectangular regions** in feature space.
+
 
 
 
