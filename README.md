@@ -177,3 +177,54 @@ $$
 |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06_decision_trees_ori.ipynb)|  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/06.Decision_Trees.ipynb)|
 
 ---
+
+
+# Chapter 7 - Ensemble Learning & Random Forests
+
+## 📌 Introduction:  
+This chapter covers various ensemble techniques that significantly improve model performance, with **Random Forests, Boosting, and Stacking** being the most powerful. 🚀
+
+## 🌟 Wisdom of the Crowd:  
+Aggregating predictions from multiple models often leads to better accuracy than individual models. This technique is called **Ensemble Learning**, and the methods used are known as **Ensemble Methods**.  
+
+## 🌲 Random Forests:  
+A **random forest** is an ensemble of decision trees trained on random subsets of data. It is simple yet highly effective for both classification and regression tasks.  
+
+## 🗳️ Voting Classifiers:  
+- **Hard Voting:** The majority class prediction is chosen.  
+- **Soft Voting:** Class probabilities are averaged, often yielding better results.  
+
+## 🎲 Bagging & Pasting:  
+- **Bagging (Bootstrap Aggregating):** Uses sampling **with replacement** to train multiple models.  
+- **Pasting:** Uses sampling **without replacement** for training.  
+- Both methods reduce variance and can be parallelized efficiently.  
+
+## 🎯 Out-of-Bag (OOB) Evaluation:  
+Some training samples are left out in **Bagging**, allowing validation without a separate dataset.  
+
+## 🔀 Random Patches & Subspaces:  
+Features can also be randomly sampled to improve diversity, especially useful in high-dimensional data.  
+
+## 🌳 Extra-Trees (Extremely Randomized Trees):  
+Instead of finding the best split, it selects **random thresholds**, increasing variance but potentially reducing overfitting.  
+
+## 📊 Feature Importance:  
+Random forests provide a simple way to measure **feature importance** by evaluating how much each feature reduces impurity.  
+
+## 🚀 Boosting (Sequential Learning):  
+A technique where each model **corrects the errors** of the previous one.  
+- **AdaBoost:** Increases weights of misclassified instances.  
+- **Gradient Boosting:** Fits new models to the residual errors of previous models.  
+
+## 🔄 Stacking (Stacked Generalization):  
+Instead of simple averaging, a **meta-learner (blender)** is trained to optimally combine model predictions.  
+
+---
+
+| Tips & Exercise solutions |
+|:-:|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/05_support_vector_machines.ipynb)|
+
+
+---
+
