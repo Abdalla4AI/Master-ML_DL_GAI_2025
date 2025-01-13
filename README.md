@@ -223,7 +223,7 @@ Instead of simple averaging, a **meta-learner (blender)** is trained to optimall
 
 | Tips & Exercise solutions |
 |:-:|
-|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/05_support_vector_machines.ipynb)|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/07.Ensembles_RFs.ipynb)|
 
 
 ---
