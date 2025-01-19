@@ -230,7 +230,14 @@ Instead of simple averaging, a **meta-learner (blender)** is trained to optimall
 
 # Chapter 8 Dimensionality reduction
 
-Dimensionality reduction is a technique used in machine learning to reduce the number of input variables or features in a dataset while retaining essential information. This process helps to mitigate issues related to high-dimensional spaces, such as overfitting and increased computational costs, making models more efficient and easier to interpret. Common methods of dimensionality reduction include Principal Component Analysis (PCA), t-Distributed Stochastic Neighbor Embedding (t-SNE), and Linear Discriminant Analysis (LDA). These techniques are crucial in improving the performance of machine learning models, especially when dealing with large datasets with many features.
+Dimensionality reduction is a technique used in machine learning to reduce the number of input variables or features in a dataset while retaining essential information. This process helps to mitigate issues related to high-dimensional spaces, such as overfitting and increased computational costs, making models more efficient and easier to interpret. 
+
+## Common methods of dimensionality reduction include:
+- Principal Component Analysis (PCA).
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- Linear Discriminant Analysis (LDA).
+
+### These techniques are crucial in improving the performance of machine learning models, especially when dealing with large datasets with many features.
 
 | Tips & Exercise solutions |
 |:-:|
