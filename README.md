@@ -234,4 +234,4 @@ Dimensionality reduction is a technique used in machine learning to reduce the n
 
 | Tips & Exercise solutions |
 |:-:|
-|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/07.Ensembles_RFs.ipynb)|
+|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Abdalla4AI/Master-ML_DL_GAI_2025/blob/main/Colab/08.Dim_Reduction.ipynb)|
